@@ -44,7 +44,7 @@ class l1_l2_regularization():
 import numpy as np
 import math
 from abc import ABC, abstractmethod
-from Regulizer import *
+from Regularizer import *
 
 class Regression(ABC):
     def __init__(self, n_iterations, learning_rate,regularization):
